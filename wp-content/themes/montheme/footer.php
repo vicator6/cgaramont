@@ -35,7 +35,7 @@
                     <p>Follow @Garamont</p>
                 </div>
                 <div class="col-md-3 col-xs-6">
-                    <h6>- Soutenez le lycée -</h6>
+                    <h6>Soutenez le lycée </h6>
                     <hr>
                     <i class="fa fa-twitter fa-3x"></i> <i class="fa fa-facebook fa-3x"></i>
                 </div>
