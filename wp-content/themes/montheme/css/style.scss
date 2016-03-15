@@ -1,9 +1,13 @@
+$vertfluo :#62f9af;
+$bg : #F2F2F2;
 /*GENERALE*/
 @font-face {
   font-family: "Avenir Heavy";
   src: url('../fonts/AvenirLTStd-Heavy.otf');
 }
-$vertfluo :#62f9af;
+body{
+  background-color:$bg;
+}
 
 /*GENERALE end*/
 
@@ -177,6 +181,121 @@ $vertfluo :#62f9af;
 
 ul li a {
   font-family: "Avenir Heavy";
+}
+
+.separateur {
+
+  border-bottom: solid 1px;
+}
+
+.backEB {
+
+  background-color: #EBEBEB;
+  padding-top: 5%;
+
+
+
+}
+
+
+.backEB ul li {
+
+  list-style-type: none;
+
+
+}
+
+
+.more {
+
+  font-size: 10px;
+  margin-bottom: 12%;
+  margin-top: 4%;
+}
+
+.marginsep1 {
+
+  margin-bottom: 2%;
+}
+
+.marginsep2 {
+
+  margin-bottom: 5%;
+}
+
+.separateurpattern {
+
+  background-image: url(../img/separateurpattern.jpg);
+  width: 97%;
+  height: 5px;
+}
+
+.slider {
+  display: flex;
+}
+
+.slider h4 {
+  margin-top: 2%;
+}
+
+.slide11 {
+
+  width: 32px;
+  margin-top: 2%;
+  height: 7px;
+  background-color: #6DFAAB;
+}
+
+.slide2 {
+
+  width: 32px;
+  margin-top: 2%;
+  height: 7px;
+  background-color: #C5C5C5;
+  margin-left: 1%;
+}
+
+.slide3 {
+
+  width: 32px;
+  margin-top: 2%;
+  height: 7px;
+  background-color: #C5C5C5;
+  margin-left: 1%;
+}
+
+/*    ===================================================================================      Adrien Cadot        ==============================================================     */
+
+/*    ===================================================================================      Adrien Trublard        ==============================================================     */
+
+footer{
+  font-family: "Avenir Heavy";
+  text-decoration: none;
+  color: white;
+}
+
+footer h6{
+  font-size: 20px;
+}
+
+footer li{
+  list-style-type:none;
+}
+
+footer .a{
+  background-color: #2F2F2F;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+footer .b{
+  background-color: #383737;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+footer .fa{
+  margin-right: 20px;
 }
 
 /*HAMZA end*/
