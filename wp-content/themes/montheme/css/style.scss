@@ -161,6 +161,10 @@ body{
   padding-top:0 !important;
 }
 
+.navbar-toggle-modified {
+  margin-top: 20px !important;
+}
+
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -262,6 +266,10 @@ ul li a {
   height: 7px;
   background-color: #C5C5C5;
   margin-left: 1%;
+}
+
+.col-md-12 p {
+  text-align:center;
 }
 
 /*    ===================================================================================      Adrien Cadot        ==============================================================     */
