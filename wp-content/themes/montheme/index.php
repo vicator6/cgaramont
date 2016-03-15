@@ -128,11 +128,12 @@
             <div class="row sept5">
                 <div class="col-md-3">
                     <div class="col-md-10 col-md-offset-1 vcborder">
-                        
                         <a href="#">
                             <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/slider2.jpg" alt="">
                         </a>
-
+                        <div class="hoververt text-center">
+                            <i class="fa fa-search-plus text-center fa-3x"></i>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -140,6 +141,7 @@
                         <a href="#">
                             <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/facebook.jpg" alt="">
                         </a>
+                        <div class="hoververt"></div>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -147,6 +149,9 @@
                         <a href="#">
                             <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/slider3.jpg" alt="">
                         </a>
+                         <div class="hoververt">
+
+                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -154,6 +159,7 @@
                         <a href="#">
                             <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/pronotes.jpg" alt="">
                         </a>
+                         <div class="hoververt"></div>
                     </div>
                 </div>
             </div>

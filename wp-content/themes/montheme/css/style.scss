@@ -14,6 +14,7 @@ h1, h2, h3, h4, p{
 
   /*COULEURS*/
 $vertfluo :#62f9af;
+$vertfluo9 : rgba(98, 249, 175, 0.9);
 
   /*COULEURS end*/
 
@@ -62,7 +63,21 @@ $vertfluo :#62f9af;
       width: 35px;
       border-radius: 0px;
     }
-
+  }
+  .hoververt{
+    background-color: $vertfluo9;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition:300ms;
+    vertical-align: middle;
+    i{
+      vertical-align: middle;
+    }
   }
   .vcborder{
     border: solid 1px rgba(0, 0, 0, 0.36);
@@ -70,9 +85,16 @@ $vertfluo :#62f9af;
     padding: 0;
     overflow: hidden;
     border-bottom: solid 6px $vertfluo;
+    &:hover{
+      .hoververt{
+        top:0px;
+        transition:300ms;
+      }
+    }
     img{
       height: 100%;
       width: auto;
+
     }
   }
   .carousel-caption{
