@@ -35,7 +35,7 @@
                     <p>Follow @Garamont</p>
                 </div>
                 <div class="col-md-3 col-xs-6">
-                    <h6>- Soutenez le lycée -</h6>
+                    <h6>Soutenez le lycée </h6>
                     <hr>
                     <i class="fa fa-twitter fa-3x"></i> <i class="fa fa-facebook fa-3x"></i>
                 </div>
@@ -46,7 +46,7 @@
     <div class="container-fluide b">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">LOGO</div>
+                <div class="col-md-3"><img src="<?php bloginfo( 'template_directory' ); ?>/img/Logo_nav_modified.png" alt="Logo Lycée Claude Garamont" width="200px"></div>
             </div>
         </div>
     </div>

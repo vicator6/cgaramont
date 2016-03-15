@@ -45,7 +45,7 @@
             <div class="collapse hm_navbar-collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav hm_nav-modified navbar-nav">
                     <li><a href="<?php echo home_url();?>">Accueil <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Be European</a></li>
+                    <li><a href="<?php echo get_page_link(34); ?>">Be European</a></li>
                     <li><a href="<?php echo get_page_link(11); ?>">Lycée</a></li>
                     <li><a href="#">Formations</a></li>
                     <li><a href="#">Entreprise</a></li>

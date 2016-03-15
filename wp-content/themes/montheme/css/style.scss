@@ -1,19 +1,67 @@
 $vertfluo :#62f9af;
 $bg : #F2F2F2;
 /*GENERALE*/
+
+/*FONT*/
 @font-face {
   font-family: "Avenir Heavy";
   src: url('../fonts/AvenirLTStd-Heavy.otf');
 }
-body{
-  background-color:$bg;
+
+@font-face {
+  font-family: "Avenir Light";
+  src: url('../fonts/AvenirLTStd-Light.otf');
+}
+
+$light : "Avenir Light";
+$heavy : "Avenir Heavy";
+/*FONT*/
+
+/*COULEURS*/
+$vertfluo :#62f9af;
+$vertfluo9 : rgba(98, 249, 175, 0.9);
+/*COULEURS end*/
+
+
+h1, h2, h3, h4, p{
+  font-family: $light ;
 }
 
 /*GENERALE end*/
 
 /*VICTOR*/
-#homepage{
+@mixin sept($px) {
+  margin-top : $px;
+}
+@mixin sepb($px) {
+  margin-bottom : $px;
+}
+@mixin sepr($px) {
+  margin-right : $px;
+}
+@mixin sepl($px) {
+  margin-left : $px;
+}
+.sept1 {
+  @include sept(10px);
+}
+.sept2 {
+  @include sept(20px);
+}
+.sept3 {
+  @include sept(30px);
+}
+.sept4 {
+  @include sept(40px);
+}
+.sept5 {
+  @include sept(50px);
+}
+.sept10 {
+  @include sept(100px);
+}
 
+#homepage{
   #homeslider{
     .container-fluid{
       padding-right: 0px;
@@ -25,6 +73,39 @@ body{
       border-radius: 0px;
     }
   }
+  .hoververt{
+    background-color: $vertfluo9;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition:300ms;
+    vertical-align: middle;
+    i{
+      vertical-align: middle;
+    }
+  }
+  .vcborder{
+    border: solid 1px rgba(0, 0, 0, 0.36);
+    height: 200px;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: solid 6px $vertfluo;
+    &:hover{
+      .hoververt{
+        top:0px;
+        transition:300ms;
+      }
+    }
+    img{
+      height: 100%;
+      width: auto;
+
+    }
+  }
   .carousel-caption{
     position: relative;
     float: left;
@@ -34,7 +115,7 @@ body{
     border-bottom: solid 8px $vertfluo;
   }
   div#carousel-example-generic{
-    height: 600px;
+    height: 500px;
   }
 
   .skyblue {
@@ -118,12 +199,10 @@ body{
       transition: 300ms;
     }
   }
-
   p{
     text-align: left;
     font-size: 1.1em;
   }
-
   h1 {
     margin-bottom: 30px;
     font-size: 30px;
@@ -142,7 +221,9 @@ body{
 
 
 /*HAMZA*/
-
+.background-color {
+  color:red;
+}
 .hm_navbar-default-modified {
   background-image: linear-gradient(to bottom,#f1f1f1 0,#f8f8f8 100%) !important;
   min-height: 80px !important;
@@ -184,7 +265,7 @@ body{
 }
 
 ul li a {
-  font-family: "Avenir Heavy";
+  font-family: $heavy;
 }
 
 .separateur {
@@ -229,7 +310,6 @@ ul li a {
 
 .separateurpattern {
 
-  background-image: url(../img/separateurpattern.jpg);
   width: 97%;
   height: 5px;
 }
@@ -268,8 +348,8 @@ ul li a {
   margin-left: 1%;
 }
 
-.col-md-12 p {
-  text-align:center;
+.col-md-12 .thumbnail-img img {
+  margin:auto;
 }
 
 /*    ===================================================================================      Adrien Cadot        ==============================================================     */
