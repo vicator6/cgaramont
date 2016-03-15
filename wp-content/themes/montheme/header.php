@@ -38,11 +38,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand nav-brand-modified" href="#"><img src="<?php bloginfo( 'template_directory' ); ?>/img/Logo_nav.png" alt="Logo Lycée Claude Garamont"></a>
+                <a class="navbar-brand nav-brand-modified" href="#"><img src="<?php bloginfo( 'template_directory' ); ?>/img/Logo_nav_modified.png" alt="Logo Lycée Claude Garamont"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse hm_navbar-collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav hm_nav-modified navbar-nav">
                     <li><a href="#">Accueil <span class="sr-only">(current)</span></a></li>
                     <li><a href="#">Be European</a></li>

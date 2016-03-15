@@ -104,8 +104,7 @@
   margin-bottom: 0 !important; }
 
 .hm_container-fluid-modified {
-  min-height: 80px !important;
-  padding: 12px 10px 12px 10px !important; }
+  min-height: 80px !important; }
 
 .navbar-header a img {
   width: 200px !important; }
@@ -123,6 +122,12 @@
 
 .hm_nav-modified {
   margin-left: -200px !important; }
+
+.hm_navbar-collapse {
+  padding: 12px 10px 12px 10px !important; }
+
+ul li a {
+  font-family: "Avenir Heavy"; }
 
 /*HAMZA end*/
 /*ADRIENC*/

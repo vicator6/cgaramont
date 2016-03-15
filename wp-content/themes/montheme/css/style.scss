@@ -147,7 +147,6 @@ $vertfluo :#62f9af;
 
 .hm_container-fluid-modified {
   min-height: 80px !important;
-  padding: 12px 10px 12px 10px !important;
 }
 
 .navbar-header a img {
@@ -172,6 +171,13 @@ $vertfluo :#62f9af;
   margin-left: -200px !important;
 }
 
+.hm_navbar-collapse {
+  padding: 12px 10px 12px 10px !important;
+}
+
+ul li a {
+  font-family: "Avenir Heavy";
+}
 
 /*HAMZA end*/
 
