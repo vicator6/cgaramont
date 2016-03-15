@@ -1,4 +1,40 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Avenir Heavy";
+  src: url("../fonts/AvenirLTStd-Heavy.otf"); }
 body {
   background-color: #fff; }
+
+/*    ===================================================================================      D├®but Navbar        ==============================================================     */
+.hm_navbar-default-modified {
+  background-image: linear-gradient(to bottom, #f1f1f1 0, #f8f8f8 100%) !important;
+  min-height: 80px !important;
+  margin-bottom: 0 !important; }
+
+.hm_container-fluid-modified {
+  min-height: 80px !important;
+  padding: 12px 10px 12px 10px !important; }
+
+.navbar-header a img {
+  width: 200px !important; }
+
+.nav-brand-modified {
+  padding-top: 0 !important; }
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top; }
+
+.navbar .navbar-collapse {
+  text-align: center; }
+
+.hm_nav-modified {
+  margin-left: -200px !important; }
+
+ul li a {
+  font-family: "Avenir Heavy"; }
+
+/*    ===================================================================================      Fin Navbar        ==============================================================     */
 
 /*# sourceMappingURL=style.css.map */
