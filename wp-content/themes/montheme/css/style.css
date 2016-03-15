@@ -4,6 +4,98 @@
   src: url("../fonts/AvenirLTStd-Heavy.otf"); }
 /*GENERALE end*/
 /*VICTOR*/
+#homepage {
+  /* Animation delays */ }
+  #homepage #homeslider .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px; }
+  #homepage #homeslider .activepoint {
+    height: 8px;
+    width: 35px;
+    border-radius: 0px; }
+  #homepage .carousel-caption {
+    position: relative;
+    float: left; }
+  #homepage .carousel-inner {
+    height: 100%;
+    border-bottom: solid 8px #62f9af; }
+  #homepage div#carousel-example-generic {
+    height: 600px; }
+  #homepage .skyblue {
+    background-color: #62f9af; }
+  #homepage .slide1 {
+    background-image: url("../img/slider1.jpg");
+    width: 100%;
+    height: auto;
+    background-size: cover; }
+  #homepage .slide2 {
+    background-image: url("../img/slider2.jpg");
+    width: 100%;
+    height: auto;
+    background-size: cover; }
+  #homepage .slide3 {
+    background-image: url("../img/slider3.jpg");
+    width: 100%;
+    height: auto;
+    background-size: cover; }
+  #homepage .slide4 {
+    background-image: url("../img/slider4.jpg");
+    width: 100%;
+    height: auto;
+    background-size: cover; }
+  #homepage .carousel-indicators {
+    bottom: 0; }
+  #homepage .carousel-control.right,
+  #homepage .carousel-control.left {
+    background-image: none; }
+  #homepage .carousel .item {
+    height: 100%;
+    width: 100%; }
+  #homepage .carousel-caption h3,
+  #homepage .carousel .icon-container,
+  #homepage .carousel-caption button {
+    text-align: left; }
+  #homepage .carousel-caption h3 {
+    color: black; }
+  #homepage .carousel .icon-container {
+    display: inline-block;
+    font-size: 25px;
+    line-height: 25px;
+    padding: 1em;
+    border-radius: 50%; }
+  #homepage .carousel-caption button {
+    margin-top: 1em; }
+  #homepage .carousel-caption h3:first-child {
+    animation-delay: .5s; }
+  #homepage .carousel-caption h3:nth-child(2) {
+    animation-delay: 1s; }
+  #homepage .carousel-caption button {
+    animation-delay: 1.5s;
+    margin-top: 1em;
+    float: left;
+    padding: 10px 35px;
+    border-radius: 2px;
+    background-color: #fff;
+    color: black;
+    font-style: inherit;
+    border-color: #62f9af; }
+    #homepage .carousel-caption button:hover {
+      background-color: #62f9af;
+      color: #fff;
+      border-color: #fff;
+      transition: 300ms; }
+  #homepage p {
+    text-align: left;
+    font-size: 1.1em; }
+  #homepage h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold; }
+  #homepage .surlignevert {
+    background-color: #62f9af;
+    padding: 5px 5px 5px 5px;
+    line-height: 1.5; }
+
 /*VICTOR end*/
 /*HAMZA*/
 .hm_navbar-default-modified {
