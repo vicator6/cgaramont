@@ -16,6 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="<?php bloginfo( 'template_directory' ); ?>/css/mystyle.css" rel="stylesheet">
+    <link href="<?php bloginfo( 'template_directory' ); ?>/css/style.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="<?php bloginfo( 'template_directory' ); ?>/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -27,20 +28,31 @@
 
 <!-- Header -->
 <header id="top" class="header">
-    <nav id="navigation">
-        <ul>
-            <li>
-                <a href="">Accueil</a>
-            </li>
-            <li>
-                <a href="">Qui sommes-nous ?</a>
-            </li>
-            <li>
-                <a href="">Portfolio</a>
-            </li>
-            <li>
-                <a href="">Contact</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-default hm_navbar-default-modified">
+        <div class="container-fluid hm_container-fluid-modified">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand nav-brand-modified" href="#"><img src="<?php bloginfo( 'template_directory' ); ?>/img/Logo_nav.png" alt="Logo Lycée Claude Garamont"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav hm_nav-modified navbar-nav">
+                    <li><a href="#">Accueil <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Be European</a></li>
+                    <li><a href="#">Lycée</a></li>
+                    <li><a href="#">Formations</a></li>
+                    <li><a href="#">Entreprise</a></li>
+                    <li><a href="#">Partenaires</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
     </nav>
 </header>
