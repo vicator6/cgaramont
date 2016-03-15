@@ -2,6 +2,7 @@
 @font-face {
   font-family: "Avenir Heavy";
   src: url("../fonts/AvenirLTStd-Heavy.otf"); }
+<<<<<<< HEAD
 @font-face {
   font-family: "Avenir Light";
   src: url("../fonts/AvenirLTStd-Light.otf"); }
@@ -10,6 +11,11 @@ h1, h2, h3, h4, p {
 
 /*COULEURS*/
 /*COULEURS end*/
+=======
+body {
+  background-color: #F2F2F2; }
+
+>>>>>>> 2ee8d481583e5b43be6940da89772e3253e686db
 /*GENERALE end*/
 /*VICTOR*/
 .sept1 {
@@ -155,8 +161,7 @@ h1, h2, h3, h4, p {
   margin-bottom: 0 !important; }
 
 .hm_container-fluid-modified {
-  min-height: 80px !important;
-  padding: 12px 10px 12px 10px !important; }
+  min-height: 80px !important; }
 
 .navbar-header a img {
   width: 200px !important; }
@@ -174,6 +179,90 @@ h1, h2, h3, h4, p {
 
 .hm_nav-modified {
   margin-left: -200px !important; }
+
+.hm_navbar-collapse {
+  padding: 12px 10px 12px 10px !important; }
+
+ul li a {
+  font-family: "Avenir Heavy"; }
+
+.separateur {
+  border-bottom: solid 1px; }
+
+.backEB {
+  background-color: #EBEBEB;
+  padding-top: 5%; }
+
+.backEB ul li {
+  list-style-type: none; }
+
+.more {
+  font-size: 10px;
+  margin-bottom: 12%;
+  margin-top: 4%; }
+
+.marginsep1 {
+  margin-bottom: 2%; }
+
+.marginsep2 {
+  margin-bottom: 5%; }
+
+.separateurpattern {
+  background-image: url(../img/separateurpattern.jpg);
+  width: 97%;
+  height: 5px; }
+
+.slider {
+  display: flex; }
+
+.slider h4 {
+  margin-top: 2%; }
+
+.slide11 {
+  width: 32px;
+  margin-top: 2%;
+  height: 7px;
+  background-color: #6DFAAB; }
+
+.slide2 {
+  width: 32px;
+  margin-top: 2%;
+  height: 7px;
+  background-color: #C5C5C5;
+  margin-left: 1%; }
+
+.slide3 {
+  width: 32px;
+  margin-top: 2%;
+  height: 7px;
+  background-color: #C5C5C5;
+  margin-left: 1%; }
+
+/*    ===================================================================================      Adrien Cadot        ==============================================================     */
+/*    ===================================================================================      Adrien Trublard        ==============================================================     */
+footer {
+  font-family: "Avenir Heavy";
+  text-decoration: none;
+  color: white; }
+
+footer h6 {
+  font-size: 20px; }
+
+footer li {
+  list-style-type: none; }
+
+footer .a {
+  background-color: #2F2F2F;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+footer .b {
+  background-color: #383737;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+footer .fa {
+  margin-right: 20px; }
 
 /*HAMZA end*/
 /*ADRIENC*/

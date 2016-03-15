@@ -1,22 +1,31 @@
+$vertfluo :#62f9af;
+$bg : #F2F2F2;
 /*GENERALE*/
+
+/*FONT*/
 @font-face {
   font-family: "Avenir Heavy";
   src: url('../fonts/AvenirLTStd-Heavy.otf');
 }
+
 @font-face {
   font-family: "Avenir Light";
   src: url('../fonts/AvenirLTStd-Light.otf');
 }
 
-h1, h2, h3, h4, p{
-  font-family: "Avenir Light" ;
-}
+$light : "Avenir Light";
+$heavy : "Avenir Heavy";
+/*FONT*/
 
-  /*COULEURS*/
+/*COULEURS*/
 $vertfluo :#62f9af;
 $vertfluo9 : rgba(98, 249, 175, 0.9);
+/*COULEURS end*/
 
-  /*COULEURS end*/
+
+h1, h2, h3, h4, p{
+  font-family: $light ;
+}
 
 /*GENERALE end*/
 
@@ -190,12 +199,10 @@ $vertfluo9 : rgba(98, 249, 175, 0.9);
       transition: 300ms;
     }
   }
-
   p{
     text-align: left;
     font-size: 1.1em;
   }
-
   h1 {
     margin-bottom: 30px;
     font-size: 30px;
@@ -223,7 +230,6 @@ $vertfluo9 : rgba(98, 249, 175, 0.9);
 
 .hm_container-fluid-modified {
   min-height: 80px !important;
-  padding: 12px 10px 12px 10px !important;
 }
 
 .navbar-header a img {
@@ -248,6 +254,127 @@ $vertfluo9 : rgba(98, 249, 175, 0.9);
   margin-left: -200px !important;
 }
 
+.hm_navbar-collapse {
+  padding: 12px 10px 12px 10px !important;
+}
+
+ul li a {
+  font-family: $heavy;
+}
+
+.separateur {
+
+  border-bottom: solid 1px;
+}
+
+.backEB {
+
+  background-color: #EBEBEB;
+  padding-top: 5%;
+
+
+
+}
+
+
+.backEB ul li {
+
+  list-style-type: none;
+
+
+}
+
+
+.more {
+
+  font-size: 10px;
+  margin-bottom: 12%;
+  margin-top: 4%;
+}
+
+.marginsep1 {
+
+  margin-bottom: 2%;
+}
+
+.marginsep2 {
+
+  margin-bottom: 5%;
+}
+
+.separateurpattern {
+
+  width: 97%;
+  height: 5px;
+}
+
+.slider {
+  display: flex;
+}
+
+.slider h4 {
+  margin-top: 2%;
+}
+
+.slide11 {
+
+  width: 32px;
+  margin-top: 2%;
+  height: 7px;
+  background-color: #6DFAAB;
+}
+
+.slide2 {
+
+  width: 32px;
+  margin-top: 2%;
+  height: 7px;
+  background-color: #C5C5C5;
+  margin-left: 1%;
+}
+
+.slide3 {
+
+  width: 32px;
+  margin-top: 2%;
+  height: 7px;
+  background-color: #C5C5C5;
+  margin-left: 1%;
+}
+
+/*    ===================================================================================      Adrien Cadot        ==============================================================     */
+
+/*    ===================================================================================      Adrien Trublard        ==============================================================     */
+
+footer{
+  font-family: "Avenir Heavy";
+  text-decoration: none;
+  color: white;
+}
+
+footer h6{
+  font-size: 20px;
+}
+
+footer li{
+  list-style-type:none;
+}
+
+footer .a{
+  background-color: #2F2F2F;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+footer .b{
+  background-color: #383737;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+footer .fa{
+  margin-right: 20px;
+}
 
 /*HAMZA end*/
 

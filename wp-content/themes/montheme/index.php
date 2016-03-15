@@ -149,9 +149,9 @@
                         <a href="#">
                             <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/slider3.jpg" alt="">
                         </a>
-                         <div class="hoververt">
+                        <div class="hoververt">
 
-                         </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -159,7 +159,7 @@
                         <a href="#">
                             <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/pronotes.jpg" alt="">
                         </a>
-                         <div class="hoververt"></div>
+                        <div class="hoververt"></div>
                     </div>
                 </div>
             </div>
@@ -168,4 +168,94 @@
 
     </section>
 
+    <!-- ================================================ FIN SLIDER  =================================================== -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="slider">
+                    <h4>Travaux d'élèves <i class="fa fa-long-arrow-right"></i></h4>
+                    <div class="col-md-offset-9 slide11"></div>
+                    <div class="col-md-offset-9 slide2"></div>
+                    <div class="col-md-offset-9 slide3"></div>
+                </div>
+                <div class="marginsep1 row">
+                    <div class="container-fluid  separateurpattern"></div>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                LoremLe Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
+                impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un
+                peintre
+                anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.
+            </div>
+            <div class="col-md-3 col-xs-6">
+                LoremLe Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
+                impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un
+                peintre
+                anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.
+            </div>
+            <div class="col-md-3 col-xs-6">
+                LoremLe Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
+                impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un
+                peintre
+                anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.
+            </div>
+            <div class="col-md-3 marginsep2 col-xs-6">
+                LoremLe Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
+                impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un
+                peintre
+                anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.
+            </div>
+        </div>
+        <h4>En brief <i class="fa fa-long-arrow-right"></i></h4>
+        <div class="row">
+            <div class="container-fluid  separateurpattern"></div>
+        </div>
+        <div class="backEB">
+            <div class="row mamadou">
+                <div class="col-md-3 col-xs-6">
+                    <ul>
+
+                        <li>:: Dates des conseils de classe du premier trimestre</li>
+                        <li class="more">EN SAVOIR PLUS <i class="fa fa-external-link"></i></li>
+                        <li>:: Projet d'établissement</li>
+                        <li class="more">EN SAVOIR PLUS <i class="fa fa-external-link"></i></li>
+                        <li>:: Pronote mode d'emploi</li>
+                        <li class="more">EN SAVOIR PLUS <i class="fa fa-external-link"></i></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <ul>
+                        <li>:: Dates des conseils de classe du premier trimestre</li>
+                        <li class="more">EN SAVOIR PLUS <i class="fa fa-external-link"></i></li>
+                        <li>:: Projet d'établissement</li>
+                        <li class="more">EN SAVOIR PLUS <i class="fa fa-external-link"></i></li>
+                        <li>:: Pronote mode d'emploi</li>
+                        <li class="more">EN SAVOIR PLUS <i class="fa fa-external-link"></i></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <ul>
+                        <li>:: Dates des conseils de classe du premier trimestre</li>
+                        <li class="more">EN SAVOIR PLUS <i class="fa fa-external-link"></i></li>
+                        <li>:: Projet d'établissement</li>
+                        <li class="more">EN SAVOIR PLUS <i class="fa fa-external-link"></i></li>
+                        <li>:: Pronote mode d'emploi</li>
+                        <li class="more">EN SAVOIR PLUS <i class="fa fa-external-link"></i></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <ul>
+                        <li>:: Dates des conseils de classe du premier trimestre</li>
+                        <li class="more">EN SAVOIR PLUS <i class="fa fa-external-link"></i></li>
+                        <li>:: Projet d'établissement</li>
+                        <li class="more">EN SAVOIR PLUS <i class="fa fa-external-link"></i></li>
+                        <li>:: Pronote mode d'emploi</li>
+                        <li class="more">EN SAVOIR PLUS <i class="fa fa-external-link"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 <?php get_footer(); ?>
