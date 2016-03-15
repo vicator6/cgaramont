@@ -10,24 +10,6 @@
                     <h2>Nos services</h2>
                     <div class="row">
 
-                        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
-                            <div class="col-md-3 col-sm-6">
-                                <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-<?php the_field('icon'); ?> fa-stack-1x text-primary" style="color: #337ab7;;"></i>
-                                </span>
-                                    <h4>
-                                        <strong><?php the_title(); ?></strong>
-                                    </h4>
-                                    <p> <?php the_content(); ?></p>
-                                </div>
-                            </div>
-                        <?php endwhile; endif; ?>
-
-
-
 
 
                     </div>
