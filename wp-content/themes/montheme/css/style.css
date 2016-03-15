@@ -2,8 +2,34 @@
 @font-face {
   font-family: "Avenir Heavy";
   src: url("../fonts/AvenirLTStd-Heavy.otf"); }
+@font-face {
+  font-family: "Avenir Light";
+  src: url("../fonts/AvenirLTStd-Light.otf"); }
+h1, h2, h3, h4, p {
+  font-family: "Avenir Light"; }
+
+/*COULEURS*/
+/*COULEURS end*/
 /*GENERALE end*/
 /*VICTOR*/
+.sept1 {
+  margin-top: 10px; }
+
+.sept2 {
+  margin-top: 20px; }
+
+.sept3 {
+  margin-top: 30px; }
+
+.sept4 {
+  margin-top: 40px; }
+
+.sept5 {
+  margin-top: 50px; }
+
+.sept10 {
+  margin-top: 100px; }
+
 #homepage {
   /* Animation delays */ }
   #homepage #homeslider .container-fluid {
@@ -13,6 +39,15 @@
     height: 8px;
     width: 35px;
     border-radius: 0px; }
+  #homepage .vcborder {
+    border: solid 1px rgba(0, 0, 0, 0.36);
+    height: 200px;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: solid 6px #62f9af; }
+    #homepage .vcborder img {
+      height: 100%;
+      width: auto; }
   #homepage .carousel-caption {
     position: relative;
     float: left; }
@@ -20,7 +55,7 @@
     height: 100%;
     border-bottom: solid 8px #62f9af; }
   #homepage div#carousel-example-generic {
-    height: 600px; }
+    height: 500px; }
   #homepage .skyblue {
     background-color: #62f9af; }
   #homepage .slide1 {

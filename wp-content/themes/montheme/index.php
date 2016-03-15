@@ -16,7 +16,6 @@
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
-
                         <!-- First slide -->
                         <div class="item active slide1">
                             <div class="carousel-caption">
@@ -125,28 +124,39 @@
         </section>
 
         <div class="container-fluid">
-<div class="row">
-    <div class="col-md-3">
-        <div class="col-md-10 col-md-offset-1 vcborder">
+            <h2 class="text-center sept3">Accès rapide</h2>
+            <div class="row sept5">
+                <div class="col-md-3">
+                    <div class="col-md-10 col-md-offset-1 vcborder">
+                        
+                        <a href="#">
+                            <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/slider2.jpg" alt="">
+                        </a>
 
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="col-md-10 col-md-offset-1 vcborder">
-
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="col-md-10 col-md-offset-1 vcborder">
-
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="col-md-10 col-md-offset-1 vcborder">
-
-        </div>
-    </div>
-</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="col-md-10 col-md-offset-1 vcborder">
+                        <a href="#">
+                            <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/facebook.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="col-md-10 col-md-offset-1 vcborder">
+                        <a href="#">
+                            <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/slider3.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="col-md-10 col-md-offset-1 vcborder">
+                        <a href="#">
+                            <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/pronotes.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
