@@ -59,11 +59,6 @@ h1, h2, h3, h4, p{
 }
 
 #homepage{
-
-
-
-
-
   #homeslider{
     .container-fluid{
       padding-right: 0px;
@@ -97,8 +92,9 @@ h1, h2, h3, h4, p{
 
     .flip-container, .front, .back {
       width: 100%;
-      height: auto;
+      height: 356px;
       max-height: 100%;
+      background-color: rgba(0, 0, 0, 0.51);
     }
 
     /* flip speed goes here */
