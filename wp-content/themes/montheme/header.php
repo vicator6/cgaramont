@@ -51,7 +51,7 @@
                     <li><a href="<?php echo get_page_link(48); ?>">Formations</a></li>
                     <li><a href="#">Entreprise</a></li>
                     <li><a href="#">Partenaires</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="<?php echo get_page_link(126); ?>">Contact</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->

@@ -12,7 +12,7 @@
                         </div>
                     </div>
                     <div class="hidden-md-down col-md-2 col-xs-3 col-xs-offset-1">
-                        <p class="pull-right"><div>
+                        <p class="fil-ariane">
                                 <?php // Breadcrumb navigation
                                 if (is_page() && !is_front_page() || is_single() || is_category()) {
                                     echo '<a title="Accueil - Lycée Claude Garamont" rel="nofollow" href="'.home_url().'">Accueil</a>';

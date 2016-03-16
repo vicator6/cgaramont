@@ -292,6 +292,9 @@ ul li a {
   margin-right: 0;
   margin-left: 0; }
 
+.fil-ariane {
+  margin-top: 40px; }
+
 /*    ===================================================================================      Adrien Cadot        ==============================================================     */
 /*    ===================================================================================      Adrien Trublard        ==============================================================     */
 footer {
@@ -320,6 +323,23 @@ footer .fa {
 
 /*HAMZA end*/
 /*ADRIENC*/
+#contact .ac_position_right {
+  margin-left: 8%; }
+#contact .ac_margin_sep {
+  margin-bottom: 5%;
+  margin-top: 5%; }
+#contact .ac_maps {
+  padding: 0 !important; }
+  #contact .ac_maps iframe {
+    pointer-events: none; }
+
+.ac_nopadding {
+  padding: 0; }
+
+.ac_contact_title {
+  font-weight: bold;
+  margin-bottom: 5%; }
+
 /*ADRIENC end*/
 /*ADRIENT*/
 /*ADRIENT end*/
