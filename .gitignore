@@ -1,3 +1,6 @@
 wp-config.php
 .DS_Store
 .idea/
+/.idea/watcherTasks.xml
+/.idea/workspace.xml
+git
