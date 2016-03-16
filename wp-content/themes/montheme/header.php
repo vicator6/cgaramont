@@ -49,8 +49,8 @@
                     <li><a href="<?php echo get_page_link(34); ?>">Be European</a></li>
                     <li><a href="<?php echo get_page_link(11); ?>">Lycée</a></li>
                     <li><a href="<?php echo get_page_link(48); ?>">Formations</a></li>
-                    <li><a href="#">Entreprise</a></li>
-                    <li><a href="#">Partenaires</a></li>
+                    <li><a href="<?php echo get_page_link(120); ?>">Entreprise</a></li>
+                    <li><a href="<?php echo get_page_link(135); ?>">Partenaires</a></li>
                     <li><a href="<?php echo get_page_link(126); ?>">Contact</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
