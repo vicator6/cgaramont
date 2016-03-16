@@ -48,7 +48,7 @@
                     <li><a href="<?php echo home_url();?>">Accueil <span class="sr-only">(current)</span></a></li>
                     <li><a href="<?php echo get_page_link(34); ?>">Be European</a></li>
                     <li><a href="<?php echo get_page_link(11); ?>">Lycée</a></li>
-                    <li><a href="#">Formations</a></li>
+                    <li><a href="<?php echo get_page_link(48); ?>">Formations</a></li>
                     <li><a href="#">Entreprise</a></li>
                     <li><a href="#">Partenaires</a></li>
                     <li><a href="#">Contact</a></li>
