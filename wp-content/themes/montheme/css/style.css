@@ -62,9 +62,9 @@ h1, h2, h3, h4, p {
   #homepage #articles .border-bottom {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
   #homepage .borderbotvert {
-    border-bottom: solid 8px #62f9af;
+    border-bottom: solid 8px #49bf9d;
     height: 363px;
-    background-color: #62f9af;
+    background-color: #49bf9d;
     /* flip the pane when hovered */
     /* flip speed goes here */
     /* hide back of pane during swap */
@@ -121,7 +121,7 @@ h1, h2, h3, h4, p {
     height: 200px;
     padding: 0;
     overflow: hidden;
-    border-bottom: solid 6px #62f9af; }
+    border-bottom: solid 6px #49bf9d; }
     #homepage .vcborder:hover .hoververt {
       top: 40%;
       transition: 300ms; }
@@ -133,11 +133,11 @@ h1, h2, h3, h4, p {
     float: left; }
   #homepage .carousel-inner {
     height: 100%;
-    border-bottom: solid 8px #62f9af; }
+    border-bottom: solid 8px #49bf9d; }
   #homepage div#carousel-example-generic {
     height: 500px; }
   #homepage .skyblue {
-    background-color: #62f9af; }
+    background-color: #49bf9d; }
   #homepage .slide1 {
     background-image: url("../img/slider1.png");
     width: 100%;
@@ -194,7 +194,7 @@ h1, h2, h3, h4, p {
     color: black;
     font-style: inherit; }
     #homepage .carousel-caption button:hover {
-      background-color: #62f9af;
+      background-color: #49bf9d;
       color: #000;
       border-color: #fff;
       transition: 300ms; }
@@ -206,7 +206,7 @@ h1, h2, h3, h4, p {
     font-size: 30px;
     font-weight: bold; }
   #homepage .surlignevert {
-    background-color: #62f9af;
+    background-color: #49bf9d;
     padding: 5px 5px 5px 5px;
     line-height: 1.5; }
 
