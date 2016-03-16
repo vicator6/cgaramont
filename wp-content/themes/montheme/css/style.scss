@@ -78,7 +78,8 @@ h1, h2, h3, h4, p{
 
   .borderbotvert{
     border-bottom: solid 8px $vertfluo;
-    height: 244px;
+    height: 363px;
+    background-color: $vertfluo;
     .carreanim{
       padding:0px;
 
@@ -249,14 +250,14 @@ h1, h2, h3, h4, p{
     background-color: #fff;
     color: black;
     font-style: inherit;
-    border-color: $vertfluo;
     &:hover{
       background-color: $vertfluo;
-      color: #fff;
+      color: #000;
       border-color: #fff;
       transition: 300ms;
     }
   }
+
   p{
     text-align: left;
     font-size: 1.1em;
