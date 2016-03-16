@@ -43,7 +43,8 @@ h1, h2, h3, h4, p {
     border-radius: 0px; }
   #homepage .borderbotvert {
     border-bottom: solid 8px #62f9af;
-    height: 244px;
+    height: 363px;
+    background-color: #62f9af;
     /* flip the pane when hovered */
     /* flip speed goes here */
     /* hide back of pane during swap */
@@ -167,11 +168,10 @@ h1, h2, h3, h4, p {
     border-radius: 2px;
     background-color: #fff;
     color: black;
-    font-style: inherit;
-    border-color: #62f9af; }
+    font-style: inherit; }
     #homepage .carousel-caption button:hover {
       background-color: #62f9af;
-      color: #fff;
+      color: #000;
       border-color: #fff;
       transition: 300ms; }
   #homepage p {

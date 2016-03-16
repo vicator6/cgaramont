@@ -3,7 +3,7 @@
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
             <div class="container-fluid" style="padding: 50px 0; background-image:linear-gradient(to bottom,#F4F4F4 0,#F2F2F2 100%);border-bottom: 1px solid #E5E5E5;">
                 <div class="row">
-                    <div class="col-md-8 col-xs-8 col-md-offset-2 col-xs-offset-2">
+                    <div class="col-md-8 col-xs-7 col-md-offset-1 col-xs-offset-1">
                         <div class="row">
                             <h1 class="pull-left"><?php the_title(); ?></h1>
                         </div>
@@ -11,7 +11,7 @@
                             Description
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="hidden-md-down col-md-2 col-xs-3 col-xs-offset-1">
                         <p class="pull-right"><div>
                                 <?php // Breadcrumb navigation
                                 if (is_page() && !is_front_page() || is_single() || is_category()) {

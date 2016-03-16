@@ -127,10 +127,10 @@
                 <div class="flip-container">
                     <div class="flipper">
                         <div class="front">
-                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/slider2.jpg" alt=""></a>
+                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/reaeleve1.png" alt=""></a>
                         </div>
                         <div class="back">
-                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/facebook.jpg" alt=""></a>
+                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/reaeleve2.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -139,10 +139,10 @@
                 <div class="flip-container">
                     <div class="flipper">
                         <div class="front">
-                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/slider2.jpg" alt=""></a>
+                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/facebook.png" alt=""></a>
                         </div>
                         <div class="back">
-                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/facebook.jpg" alt=""></a>
+                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/facebook.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -151,10 +151,10 @@
                 <div class="flip-container">
                     <div class="flipper">
                         <div class="front">
-                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/slider2.jpg" alt=""></a>
+                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/galerie.png" alt=""></a>
                         </div>
                         <div class="back">
-                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/facebook.jpg" alt=""></a>
+                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/galerie.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -163,10 +163,10 @@
                 <div class="flip-container">
                     <div class="flipper">
                         <div class="front">
-                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/slider2.jpg" alt=""></a>
+                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/pronote.png" alt=""></a>
                         </div>
                         <div class="back">
-                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/facebook.jpg" alt=""></a>
+                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/pronote.png" alt=""></a>
                         </div>
                     </div>
                 </div>
