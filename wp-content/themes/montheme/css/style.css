@@ -38,6 +38,10 @@ h1, h2, h3, h4, p {
     height: 8px;
     width: 35px;
     border-radius: 0px; }
+  #homepage #articles .border-right {
+    border-right: 1px solid rgba(0, 0, 0, 0.1); }
+  #homepage #articles .border-bottom {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
   #homepage .borderbotvert {
     border-bottom: solid 8px #62f9af;
     height: 363px;

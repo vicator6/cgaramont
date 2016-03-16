@@ -70,6 +70,19 @@ h1, h2, h3, h4, p{
       border-radius: 0px;
     }
   }
+  #articles{
+    .border-right{
+      border-right: 1px solid rgba(0, 0, 0, 0.1);
+
+    }
+    .border-bottom{
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      img{
+
+      }
+    }
+
+  }
 
   .borderbotvert{
     border-bottom: solid 8px $vertfluo;
