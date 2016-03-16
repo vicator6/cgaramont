@@ -3,18 +3,20 @@ $bg : #F2F2F2;
 /*GENERALE*/
 
 /*FONT*/
+
 @font-face {
-  font-family: "Avenir Heavy";
-  src: url('../fonts/AvenirLTStd-Heavy.otf');
+
+  font-family: "avenirlight";
+  src: url('../fonts/avenirlight.otf');
 }
 
 @font-face {
-  font-family: "Avenir Light";
-  src: url('../fonts/AvenirLTStd-Light.otf');
+  font-family: "avenirheavy";
+  src: url('../fonts/avenirheavy.otf');
 }
 
-$light : "Avenir Light";
-$heavy : "Avenir Heavy";
+$light : "avenirlight";
+$heavy : "avenirheavy";
 /*FONT*/
 
 /*COULEURS*/
@@ -73,6 +75,13 @@ h1, h2, h3, h4, p{
       border-radius: 0px;
     }
   }
+  .borderbotvert{
+    border-bottom: solid 8px $vertfluo;
+    .carreanim{
+      padding:0px;
+    }
+  }
+
   .hoververt{
     background-color: $vertfluo9;
     position: absolute;
@@ -85,7 +94,11 @@ h1, h2, h3, h4, p{
     transition:300ms;
     vertical-align: middle;
     i{
+      .fa{
+        opacity: 0;
+      }
       vertical-align: middle;
+      opacity: 0;
     }
   }
   .vcborder{
@@ -96,7 +109,7 @@ h1, h2, h3, h4, p{
     border-bottom: solid 6px $vertfluo;
     &:hover{
       .hoververt{
-        top:0px;
+        top:40%;
         transition:300ms;
       }
     }
@@ -228,6 +241,8 @@ h1, h2, h3, h4, p{
   background-image: linear-gradient(to bottom,#f1f1f1 0,#f8f8f8 100%) !important;
   min-height: 80px !important;
   margin-bottom: 0 !important;
+  box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.75);
+  z-index: 30;
 }
 
 .hm_container-fluid-modified {
@@ -235,7 +250,7 @@ h1, h2, h3, h4, p{
 }
 
 .navbar-header a img {
-  width: 200px !important;
+  width: 170px !important;
 }
 
 .nav-brand-modified {
@@ -256,8 +271,18 @@ h1, h2, h3, h4, p{
   text-align: center;
 }
 
+.nav-header_modified {
+  margin-left: 50px;
+}
+@media (min-width: 768px) {
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+  margin-right: 0;
+  margin-left: 0;
+}
+}
+
 .hm_nav-modified {
-  margin-left: -200px !important;
+  margin-left: -300px !important;
 }
 
 .hm_navbar-collapse {
@@ -269,30 +294,19 @@ ul li a {
 }
 
 .separateur {
-
   border-bottom: solid 1px;
 }
 
 .backEB {
-
   background-color: #EBEBEB;
   padding-top: 5%;
-
-
-
 }
-
 
 .backEB ul li {
-
   list-style-type: none;
-
-
 }
 
-
 .more {
-
   font-size: 10px;
   margin-bottom: 12%;
   margin-top: 4%;
@@ -351,6 +365,8 @@ ul li a {
 .col-md-12 .thumbnail-img img {
   margin:auto;
 }
+
+
 
 /*    ===================================================================================      Adrien Cadot        ==============================================================     */
 

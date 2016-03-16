@@ -4,7 +4,7 @@
             <div class="container-fluid" style="padding: 50px 0; background-image:linear-gradient(to bottom,#F4F4F4 0,#F2F2F2 100%);border-bottom: 1px solid #E5E5E5;">
                 <div class="container">
                         <h1 class="pull-left"><?php the_title(); ?></h1>
-                        <h2 class="pull-right"><div>
+                        <h3 class="pull-right"><div>
                                 <?php // Breadcrumb navigation
                                     if (is_page() && !is_front_page() || is_single() || is_category()) {
                                         echo '<a title="Accueil - Lycée Claude Garamont" rel="nofollow" href="'.home_url().'">Accueil</a>';
@@ -39,7 +39,7 @@
                                         // Front page
                                         echo '<a title="Accueil - Lycée Claude Garamont" rel="nofollow" href="'.home_url().'">Accueil</a>';
                                     }
-                                    ?></p></div></h2>
+                                    ?></p></div></h3>
                 </div>
             </div>
     <div class="container">

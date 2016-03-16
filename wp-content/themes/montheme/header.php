@@ -15,13 +15,12 @@
     <link href="<?php bloginfo( 'template_directory' ); ?>/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="<?php bloginfo( 'template_directory' ); ?>/css/mystyle.css" rel="stylesheet">
-    <link href="<?php bloginfo( 'template_directory' ); ?>/css/style.css" rel="stylesheet">
-
     <!-- Custom Fonts -->
     <link href="<?php bloginfo( 'template_directory' ); ?>/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="assets/css/demo.css" rel="stylesheet">
+
+    <link href="<?php bloginfo( 'template_directory' ); ?>/css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -31,7 +30,7 @@
     <nav class="navbar navbar-default hm_navbar-default-modified">
         <div class="container-fluid hm_container-fluid-modified">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
+            <div class="nav-header_modified navbar-header">
                 <button type="button" class="navbar-toggle-modified navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>

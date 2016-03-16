@@ -58,6 +58,15 @@
 <script src="<?php bloginfo( 'template_directory' ); ?>/js/bootstrap.min.js"></script>
 <script src="<?php bloginfo( 'template_directory' ); ?>/js/bootstrap.js"></script>
 <script src="<?php bloginfo( 'template_directory' ); ?>/js/jquery.js"></script>
+<!-- jQuery -->
+<script src="<?php bloginfo( 'template_directory' ); ?>/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="<?php bloginfo( 'template_directory' ); ?>/js/bootstrap.min.js"></script>
+
+<!-- Scrolling Nav JavaScript -->
+<script src="<?php bloginfo( 'template_directory' ); ?>/js/jquery.easing.min.js"></script>
+<script src="<?php bloginfo( 'template_directory' ); ?>/js/scrolling-nav.js"></script>
 </html>
 
 

@@ -1,16 +1,16 @@
 /*GENERALE*/
 /*FONT*/
 @font-face {
-  font-family: "Avenir Heavy";
-  src: url("../fonts/AvenirLTStd-Heavy.otf"); }
+  font-family: "avenirlight";
+  src: url("../fonts/avenirlight.otf"); }
 @font-face {
-  font-family: "Avenir Light";
-  src: url("../fonts/AvenirLTStd-Light.otf"); }
+  font-family: "avenirheavy";
+  src: url("../fonts/avenirheavy.otf"); }
 /*FONT*/
 /*COULEURS*/
 /*COULEURS end*/
 h1, h2, h3, h4, p {
-  font-family: "Avenir Light"; }
+  font-family: "avenirlight"; }
 
 /*GENERALE end*/
 /*VICTOR*/
@@ -41,6 +41,10 @@ h1, h2, h3, h4, p {
     height: 8px;
     width: 35px;
     border-radius: 0px; }
+  #homepage .borderbotvert {
+    border-bottom: solid 8px #62f9af; }
+    #homepage .borderbotvert .carreanim {
+      padding: 0px; }
   #homepage .hoververt {
     background-color: rgba(98, 249, 175, 0.9);
     position: absolute;
@@ -53,7 +57,10 @@ h1, h2, h3, h4, p {
     transition: 300ms;
     vertical-align: middle; }
     #homepage .hoververt i {
-      vertical-align: middle; }
+      vertical-align: middle;
+      opacity: 0; }
+      #homepage .hoververt i .fa {
+        opacity: 0; }
   #homepage .vcborder {
     border: solid 1px rgba(0, 0, 0, 0.36);
     height: 200px;
@@ -61,7 +68,7 @@ h1, h2, h3, h4, p {
     overflow: hidden;
     border-bottom: solid 6px #62f9af; }
     #homepage .vcborder:hover .hoververt {
-      top: 0px;
+      top: 40%;
       transition: 300ms; }
     #homepage .vcborder img {
       height: 100%;
@@ -157,13 +164,15 @@ h1, h2, h3, h4, p {
 .hm_navbar-default-modified {
   background-image: linear-gradient(to bottom, #f1f1f1 0, #f8f8f8 100%) !important;
   min-height: 80px !important;
-  margin-bottom: 0 !important; }
+  margin-bottom: 0 !important;
+  box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.75);
+  z-index: 30; }
 
 .hm_container-fluid-modified {
   min-height: 80px !important; }
 
 .navbar-header a img {
-  width: 200px !important; }
+  width: 170px !important; }
 
 .nav-brand-modified {
   padding-top: 0 !important; }
@@ -179,14 +188,21 @@ h1, h2, h3, h4, p {
 .navbar .navbar-collapse {
   text-align: center; }
 
+.nav-header_modified {
+  margin-left: 50px; }
+
+@media (min-width: 768px) {
+  .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+    margin-right: 0;
+    margin-left: 0; } }
 .hm_nav-modified {
-  margin-left: -200px !important; }
+  margin-left: -300px !important; }
 
 .hm_navbar-collapse {
   padding: 12px 10px 12px 10px !important; }
 
 ul li a {
-  font-family: "Avenir Heavy"; }
+  font-family: "avenirheavy"; }
 
 .separateur {
   border-bottom: solid 1px; }
