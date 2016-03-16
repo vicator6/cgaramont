@@ -15,13 +15,12 @@
     <link href="<?php bloginfo( 'template_directory' ); ?>/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="<?php bloginfo( 'template_directory' ); ?>/css/mystyle.css" rel="stylesheet">
-    <link href="<?php bloginfo( 'template_directory' ); ?>/css/style.css" rel="stylesheet">
-
     <!-- Custom Fonts -->
     <link href="<?php bloginfo( 'template_directory' ); ?>/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="assets/css/demo.css" rel="stylesheet">
+
+    <link href="<?php bloginfo( 'template_directory' ); ?>/css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
