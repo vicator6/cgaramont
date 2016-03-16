@@ -42,9 +42,39 @@ h1, h2, h3, h4, p {
     width: 35px;
     border-radius: 0px; }
   #homepage .borderbotvert {
-    border-bottom: solid 8px #62f9af; }
+    border-bottom: solid 8px #62f9af;
+    height: 244px;
+    /* flip the pane when hovered */
+    /* flip speed goes here */
+    /* hide back of pane during swap */
+    /* front pane, placed above back */
+    /* back, initially hidden pane */ }
     #homepage .borderbotvert .carreanim {
       padding: 0px; }
+    #homepage .borderbotvert .flip-container {
+      perspective: 1000px;
+      background-color: #222; }
+    #homepage .borderbotvert .flip-container:hover .flipper, #homepage .borderbotvert .flip-container.hover .flipper {
+      transform: rotateY(180deg); }
+    #homepage .borderbotvert .flip-container, #homepage .borderbotvert .front, #homepage .borderbotvert .back {
+      width: 100%;
+      height: auto;
+      max-height: 100%; }
+    #homepage .borderbotvert .flipper {
+      transition: 0.4s;
+      transform-style: preserve-3d;
+      position: relative; }
+    #homepage .borderbotvert .front, #homepage .borderbotvert .back {
+      backface-visibility: hidden;
+      position: absolute;
+      top: 0;
+      left: 0; }
+    #homepage .borderbotvert .front {
+      z-index: 2;
+      /* for firefox 31 */
+      transform: rotateY(0deg); }
+    #homepage .borderbotvert .back {
+      transform: rotateY(180deg); }
   #homepage .hoververt {
     background-color: rgba(98, 249, 175, 0.9);
     position: absolute;

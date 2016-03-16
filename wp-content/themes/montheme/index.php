@@ -122,32 +122,60 @@
     </section>
 
     <div class="container-fluid">
-        <div class="row borderbotvert">
+        <div class="row borderbotvert test">
             <div class="col-md-3 carreanim">
-                <a href="#">
-                    <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/slider2.jpg" alt="">
-                </a>
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/slider2.jpg" alt=""></a>
+                        </div>
+                        <div class="back">
+                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/facebook.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-md-3 carreanim">
-                <a href="#">
-                    <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/facebook.jpg" alt="">
-                </a>
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/slider2.jpg" alt=""></a>
+                        </div>
+                        <div class="back">
+                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/facebook.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-md-3 carreanim">
-                <a href="#">
-                    <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/slider3.jpg" alt="">
-                </a>
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/slider2.jpg" alt=""></a>
+                        </div>
+                        <div class="back">
+                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/facebook.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-md-3 carreanim">
-                <a href="#">
-                    <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/pronotes.jpg" alt="">
-                </a>
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/slider2.jpg" alt=""></a>
+                        </div>
+                        <div class="back">
+                            <a href="#"><img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/facebook.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+    <div class="container-fluid">
 
-        <hr>
-
-        <div class="row articles">
+        <div class="row articles sep5">
             <h2 class="text-center">Actualités</h2>
             <hr>
             <div class="row">
@@ -180,11 +208,9 @@
                 </div>
             </div>
         </div>
-
     </div>
 </section>
 
-<!-- ================================================ FIN SLIDER  =================================================== -->
 <?php include 'enbrief.php';  ?>
 <?php get_footer(); ?>
 
