@@ -46,7 +46,7 @@
     <div class="container-fluide b">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">LOGO</div>
+                <div class="col-md-3"><img src="<?php bloginfo( 'template_directory' ); ?>/img/Logo_nav_modified.png" alt="Logo Lycée Claude Garamont" width="200px"></div>
             </div>
         </div>
     </div>
@@ -63,6 +63,15 @@
 <script src="<?php bloginfo( 'template_directory' ); ?>/js/bootstrap.min.js"></script>
 <script src="<?php bloginfo( 'template_directory' ); ?>/js/bootstrap.js"></script>
 <script src="<?php bloginfo( 'template_directory' ); ?>/js/jquery.js"></script>
+<!-- jQuery -->
+<script src="<?php bloginfo( 'template_directory' ); ?>/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="<?php bloginfo( 'template_directory' ); ?>/js/bootstrap.min.js"></script>
+
+<!-- Scrolling Nav JavaScript -->
+<script src="<?php bloginfo( 'template_directory' ); ?>/js/jquery.easing.min.js"></script>
+<script src="<?php bloginfo( 'template_directory' ); ?>/js/scrolling-nav.js"></script>
 </html>
 
 

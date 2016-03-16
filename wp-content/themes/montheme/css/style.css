@@ -38,12 +38,12 @@ h1, h2, h3, h4, p {
 #homepage {
   /* Animation delays */ }
   #homepage #homeslider .container-fluid {
-    padding-right: 0px;
-    padding-left: 0px; }
+    padding-right: 0;
+    padding-left: 0; }
   #homepage #homeslider .activepoint {
     height: 8px;
     width: 35px;
-    border-radius: 0px; }
+    border-radius: 0; }
   #homepage #articles .articlehome:hover h2, #homepage #articles .articlehome:hover p {
     text-decoration: underline;
     transition: 100ms;
@@ -66,7 +66,7 @@ h1, h2, h3, h4, p {
     /* front pane, placed above back */
     /* back, initially hidden pane */ }
     #homepage .borderbotvert .carreanim {
-      padding: 0px; }
+      padding: 0; }
     #homepage .borderbotvert .flip-container {
       perspective: 1000px;
       background-color: #222; }
@@ -204,19 +204,27 @@ h1, h2, h3, h4, p {
 
 /*VICTOR end*/
 /*HAMZA*/
+.background-color {
+  color: red; }
+
 .hm_navbar-default-modified {
   background-image: linear-gradient(to bottom, #f1f1f1 0, #f8f8f8 100%) !important;
   min-height: 80px !important;
-  margin-bottom: 0 !important; }
+  margin-bottom: 0 !important;
+  box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.75);
+  z-index: 30; }
 
 .hm_container-fluid-modified {
   min-height: 80px !important; }
 
 .navbar-header a img {
-  width: 200px !important; }
+  width: 170px !important; }
 
 .nav-brand-modified {
   padding-top: 0 !important; }
+
+.navbar-toggle-modified {
+  margin-top: 20px !important; }
 
 .navbar .navbar-nav {
   display: inline-block;
@@ -226,8 +234,15 @@ h1, h2, h3, h4, p {
 .navbar .navbar-collapse {
   text-align: center; }
 
+.nav-header_modified {
+  margin-left: 50px; }
+
+@media (min-width: 768px) {
+  .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+    margin-right: 0;
+    margin-left: 0; } }
 .hm_nav-modified {
-  margin-left: -200px !important; }
+  margin-left: -300px !important; }
 
 .hm_navbar-collapse {
   padding: 12px 10px 12px 10px !important; }
@@ -286,10 +301,18 @@ ul li a {
   background-color: #C5C5C5;
   margin-left: 1%; }
 
-/*    ===================================================================================      Adrien Cadot        ==============================================================     */
-/*    ===================================================================================      Adrien Trublard        ==============================================================     */
+.col-md-12 .thumbnail-img img {
+  margin: auto; }
+
+.row-modified {
+  margin-right: 0;
+  margin-left: 0; }
+
+.fil-ariane {
+  margin-top: 40px; }
+
 footer {
-  font-family: "Avenir Heavy";
+  font-family: "avenirheavy";
   text-decoration: none;
   color: white; }
 
@@ -314,6 +337,26 @@ footer .fa {
 
 /*HAMZA end*/
 /*ADRIENC*/
+#contact .ac_position_right {
+  margin-left: 8%; }
+#contact .ac_margin_sep {
+  margin-bottom: 5%;
+  margin-top: 5%; }
+#contact .ac_maps {
+  padding: 0 !important; }
+  #contact .ac_maps iframe {
+    pointer-events: none; }
+
+.ac_nopadding {
+  padding: 0; }
+
+.ac_contact_title {
+  font-weight: bold;
+  margin-bottom: 5%; }
+
+#enbrief .mamadou {
+  margin-top: 5%; }
+
 /*ADRIENC end*/
 /*ADRIENT*/
 /*ADRIENT end*/

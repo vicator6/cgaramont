@@ -13,14 +13,14 @@ $bg : #F2F2F2;
   font-family: "avenirheavy";
   src: url('../fonts/avenirheavy.otf');
 }
+
 $light : "avenirlight";
 $heavy : "avenirheavy";
 /*FONT*/
+
 body{
   font-family:$light;
 }
-
-
 
 /*COULEURS*/
 $vertfluo :#62f9af;
@@ -69,13 +69,13 @@ h1, h2, h3, h4, p{
 #homepage{
   #homeslider{
     .container-fluid{
-      padding-right: 0px;
-      padding-left: 0px;
+      padding-right: 0;
+      padding-left: 0;
     }
     .activepoint{
       height: 8px;
       width: 35px;
-      border-radius: 0px;
+      border-radius: 0;
     }
   }
   #articles{
@@ -113,7 +113,7 @@ h1, h2, h3, h4, p{
     height: 363px;
     background-color: $vertfluo;
     .carreanim{
-      padding:0px;
+      padding:0;
 
     }
 
@@ -313,11 +313,15 @@ h1, h2, h3, h4, p{
 
 
 /*HAMZA*/
-
+.background-color {
+  color:red;
+}
 .hm_navbar-default-modified {
   background-image: linear-gradient(to bottom,#f1f1f1 0,#f8f8f8 100%) !important;
   min-height: 80px !important;
   margin-bottom: 0 !important;
+  box-shadow: 0 2px 18px 0 rgba(0,0,0,0.75);
+  z-index: 30;
 }
 
 .hm_container-fluid-modified {
@@ -325,11 +329,15 @@ h1, h2, h3, h4, p{
 }
 
 .navbar-header a img {
-  width: 200px !important;
+  width: 170px !important;
 }
 
 .nav-brand-modified {
   padding-top:0 !important;
+}
+
+.navbar-toggle-modified {
+  margin-top: 20px !important;
 }
 
 .navbar .navbar-nav {
@@ -342,8 +350,18 @@ h1, h2, h3, h4, p{
   text-align: center;
 }
 
+.nav-header_modified {
+  margin-left: 50px;
+}
+@media (min-width: 768px) {
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+  margin-right: 0;
+  margin-left: 0;
+}
+}
+
 .hm_nav-modified {
-  margin-left: -200px !important;
+  margin-left: -300px !important;
 }
 
 .hm_navbar-collapse {
@@ -423,12 +441,23 @@ ul li a {
   margin-left: 1%;
 }
 
-/*    ===================================================================================      Adrien Cadot        ==============================================================     */
+.col-md-12 .thumbnail-img img {
+  margin:auto;
+}
 
-/*    ===================================================================================      Adrien Trublard        ==============================================================     */
+.row-modified {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.fil-ariane {
+  margin-top:40px;
+}
+
+
 
 footer{
-  font-family: "Avenir Heavy";
+  font-family: $heavy;
   text-decoration: none;
   color: white;
 }
@@ -463,6 +492,44 @@ footer .fa{
 
 
 /*ADRIENC*/
+#contact {
+
+  .ac_position_right {
+    margin-left: 8%;
+  }
+
+  .ac_margin_sep {
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+
+  .ac_maps {
+    padding: 0 !important;
+
+    iframe {
+      pointer-events: none;
+    }
+  }
+
+  .btn_primary {
+
+  }
+}
+
+.ac_nopadding {
+  padding: 0;
+}
+
+.ac_contact_title {
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+ #enbrief {
+   .mamadou {
+     margin-top: 5%;
+   }
+ }
+
 
 /*ADRIENC end*/
 
