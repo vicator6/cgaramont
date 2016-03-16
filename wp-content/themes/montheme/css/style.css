@@ -44,6 +44,8 @@ h1, h2, h3, h4, p {
     height: 8px;
     width: 35px;
     border-radius: 0; }
+  #homepage #articles .grey {
+    color: rgba(56, 55, 55, 0.5); }
   #homepage #articles .articlehome:hover h2, #homepage #articles .articlehome:hover p {
     text-decoration: underline;
     transition: 100ms;
@@ -52,6 +54,9 @@ h1, h2, h3, h4, p {
     text-decoration: underline;
     transition: 100ms;
     cursor: pointer; }
+  #homepage #articles .toparticle img {
+    max-width: 90%;
+    height: auto; }
   #homepage #articles .border-right {
     border-right: 1px solid rgba(0, 0, 0, 0.1); }
   #homepage #articles .border-bottom {
@@ -65,6 +70,9 @@ h1, h2, h3, h4, p {
     /* hide back of pane during swap */
     /* front pane, placed above back */
     /* back, initially hidden pane */ }
+    #homepage .borderbotvert img {
+      max-height: 355px;
+      width: 100%; }
     #homepage .borderbotvert .carreanim {
       padding: 0; }
     #homepage .borderbotvert .flip-container {
@@ -131,7 +139,7 @@ h1, h2, h3, h4, p {
   #homepage .skyblue {
     background-color: #62f9af; }
   #homepage .slide1 {
-    background-image: url("../img/slider1.jpg");
+    background-image: url("../img/slider1.png");
     width: 100%;
     height: auto;
     background-size: cover; }

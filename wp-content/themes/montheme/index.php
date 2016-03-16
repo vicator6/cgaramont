@@ -174,13 +174,22 @@
         </div>
     </div>
     <div id="articles" class="container">
-        <h2 class="text-center">Actualités</h2>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <h2 class="text-center">Actualités</h2>
+            </div>
+            <div class="col-md-2 col-md-offset-2 sept2">
+               <button class="btn btn-default"> Plus d'actualités</button>
+            </div>
+
+        </div>
+
         <hr>
         <div class="row">
             <div class="col-md-5 border-right">
                 <div class="row toparticle" >
                     <div class="row">
-                        <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/reaeleve3.png" alt="">
+                        <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/porteouverte.png" alt="">
                     </div>
                     <div class="col-md-11">
                         <div class="row articlehome">
@@ -198,14 +207,28 @@
                 <div class="col-md-11 col-md-offset-1">
                     <div class="row sept1">
                         <div class="col-md-4">
-                            <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/reaeleve3.png" alt="">
+                            <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/salon.jpg" alt="">
                         </div>
                         <div class="col-md-8 articlehome">
                             <div class="row ">
-                                <h4>Salon</h4>
+                                <h4 class="grey">Salon</h4>
                             </div>
                             <div class="row">
-                                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, quaerat!</h3>
+                                <h3>Le salon de l'étudiant arrive bientot, nous vous attendons nombreux</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row sept2">
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/ecole.jpg" alt="">
+                        </div>
+                        <div class="col-md-8 articlehome">
+                            <div class="row">
+                                <h4 class="grey">Ecole</h4>
+                            </div>
+                            <div class="row">
+                                <h3>Inscrivez vous vite aux journées portes ouvertes !</h3>
                             </div>
                         </div>
                     </div>
@@ -216,24 +239,10 @@
                         </div>
                         <div class="col-md-8 articlehome">
                             <div class="row">
-                                <h4>Ecole</h4>
+                                <h4 class="grey">Evenement</h4>
                             </div>
                             <div class="row">
-                                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, minus.</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="row sept2">
-                        <div class="col-md-4">
-                            <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/reaeleve3.png" alt="">
-                        </div>
-                        <div class="col-md-8 articlehome">
-                            <div class="row">
-                                <h4>Evenement</h4>
-                            </div>
-                            <div class="row">
-                                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, qui?</h3>
+                                <h3>Participerez vous à la journée de l'imprimerie mondial au Lycée Garamont ?</h3>
                             </div>
                         </div>
                     </div>

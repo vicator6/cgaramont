@@ -1,5 +1,4 @@
-$vertfluo :#62f9af;
-$bg : #F2F2F2;
+
 /*GENERALE*/
 
 /*FONT*/
@@ -23,8 +22,10 @@ body{
 }
 
 /*COULEURS*/
+$bg : #F2F2F2;
 $vertfluo :#62f9af;
 $vertfluo9 : rgba(98, 249, 175, 0.9);
+$grey : rgba(56, 55, 55, 0.5);
 /*COULEURS end*/
 
 
@@ -79,6 +80,9 @@ h1, h2, h3, h4, p{
     }
   }
   #articles{
+    .grey{
+      color: $grey;
+    }
     .articlehome{
       &:hover{
         h2, p{
@@ -93,6 +97,12 @@ h1, h2, h3, h4, p{
           transition: 100ms;
           cursor: pointer;
         }
+      }
+    }
+    .toparticle{
+      img{
+        max-width:90% ;
+        height: auto;
       }
     }
     .border-right{
@@ -112,6 +122,10 @@ h1, h2, h3, h4, p{
     border-bottom: solid 8px $vertfluo;
     height: 363px;
     background-color: $vertfluo;
+    img{
+      max-height: 355px;
+      width: 100%;
+    }
     .carreanim{
       padding:0;
 
@@ -214,7 +228,7 @@ h1, h2, h3, h4, p{
     background-color: $vertfluo;
   }
   .slide1 {
-    background-image: url("../img/slider1.jpg");
+    background-image: url("../img/slider1.png");
     width: 100%;
     height: auto;
     background-size: cover;
