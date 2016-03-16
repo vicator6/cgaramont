@@ -9,10 +9,18 @@ $bg : #F2F2F2;
   font-family: "avenirlight";
   src: url('../fonts/avenirlight.otf');
 }
-
+@font-face {
+  font-family: "avenirheavy";
+  src: url('../fonts/avenirheavy.otf');
+}
 $light : "avenirlight";
 $heavy : "avenirheavy";
 /*FONT*/
+body{
+  font-family:$light;
+}
+
+
 
 /*COULEURS*/
 $vertfluo :#62f9af;
@@ -71,6 +79,22 @@ h1, h2, h3, h4, p{
     }
   }
   #articles{
+    .articlehome{
+      &:hover{
+        h2, p{
+          text-decoration: underline;
+          transition: 100ms;
+          cursor: pointer;
+        }
+      }
+      h3{
+        &:hover{
+          text-decoration: underline;
+          transition: 100ms;
+          cursor: pointer;
+        }
+      }
+    }
     .border-right{
       border-right: 1px solid rgba(0, 0, 0, 0.1);
 

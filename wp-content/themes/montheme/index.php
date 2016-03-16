@@ -174,73 +174,69 @@
         </div>
     </div>
     <div id="articles" class="container">
-
-        <div class="row articles sep5">
-            <h2 class="text-center">Actualités</h2>
-            <hr>
-            <div class="row">
-                <div class="col-md-5 border-right">
+        <h2 class="text-center">Actualités</h2>
+        <hr>
+        <div class="row">
+            <div class="col-md-5 border-right">
+                <div class="row toparticle" >
                     <div class="row">
-                        <div class="row">
-                            <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/reaeleve3.png" alt="">
-                        </div>
-                        <div class="col-md-11">
-                            <div class="row bgcblack">
-                                <div class="row">
-                                    <h2>Journée porte ouverte</h2>
-                                </div>
-                                <div class="row">
-                                    <p>Rappel: la journée Portes Ouvertes du lycée aura lieu le Samedi 12 Mars de 9h à 17 heures.</p>
-                                </div>
+                        <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/reaeleve3.png" alt="">
+                    </div>
+                    <div class="col-md-11">
+                        <div class="row articlehome">
+                            <div class="row">
+                                <h2>Journée porte ouverte</h2>
+                            </div>
+                            <div class="row">
+                                <p>Rappel: la journée Portes Ouvertes du lycée aura lieu le Samedi 12 Mars de 9h à 17 heures.</p>
                             </div>
                         </div>
-
                     </div>
                 </div>
-                <div class="col-md-7">
-                    <div class="col-md-11 col-md-offset-1">
-                        <div class="row border-bottom sept1">
-                            <div class="col-md-4">
-                                <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/reaeleve3.png" alt="">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="row">
-                                    <h3>Titre</h3>
-                                </div>
-                                <div class="row">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae earum est hic laboriosam officia ratione reiciendis soluta tempora. At ducimus et numquam quia quos saepe sit tenetur voluptate. Asperiores autem molestias quam reprehenderit ullam. Commodi dolore est minima quas quo.</p>
-                                </div>
-                            </div>
+            </div>
+            <div class="col-md-7">
+                <div class="col-md-11 col-md-offset-1">
+                    <div class="row sept1">
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/reaeleve3.png" alt="">
                         </div>
-                        <div class="row border-bottom sept2">
-                            <div class="col-md-4">
-                                <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/reaeleve3.png" alt="">
+                        <div class="col-md-8 articlehome">
+                            <div class="row ">
+                                <h4>Salon</h4>
                             </div>
-                            <div class="col-md-8">
-                                <div class="row">
-                                    <h3>Titre</h3>
-                                </div>
-                                <div class="row">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae earum est hic laboriosam officia ratione reiciendis soluta tempora. At ducimus et numquam quia quos saepe sit tenetur voluptate. Asperiores autem molestias quam reprehenderit ullam. Commodi dolore est minima quas quo.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row border-bottom sept2">
-                            <div class="col-md-4">
-                                <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/reaeleve3.png" alt="">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="row">
-                                    <h3>Titre</h3>
-                                </div>
-                                <div class="row">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae earum est hic laboriosam officia ratione reiciendis soluta tempora. At ducimus et numquam quia quos saepe sit tenetur voluptate. Asperiores autem molestias quam reprehenderit ullam. Commodi dolore est minima quas quo.</p>
-                                </div>
+                            <div class="row">
+                                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, quaerat!</h3>
                             </div>
                         </div>
                     </div>
-
-
+                    <hr>
+                    <div class="row sept2">
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/reaeleve3.png" alt="">
+                        </div>
+                        <div class="col-md-8 articlehome">
+                            <div class="row">
+                                <h4>Ecole</h4>
+                            </div>
+                            <div class="row">
+                                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, minus.</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row sept2">
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="<?php bloginfo( 'template_directory' ); ?>/img/reaeleve3.png" alt="">
+                        </div>
+                        <div class="col-md-8 articlehome">
+                            <div class="row">
+                                <h4>Evenement</h4>
+                            </div>
+                            <div class="row">
+                                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, qui?</h3>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

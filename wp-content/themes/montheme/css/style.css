@@ -3,7 +3,13 @@
 @font-face {
   font-family: "avenirlight";
   src: url("../fonts/avenirlight.otf"); }
+@font-face {
+  font-family: "avenirheavy";
+  src: url("../fonts/avenirheavy.otf"); }
 /*FONT*/
+body {
+  font-family: "avenirlight"; }
+
 /*COULEURS*/
 /*COULEURS end*/
 h1, h2, h3, h4, p {
@@ -38,6 +44,14 @@ h1, h2, h3, h4, p {
     height: 8px;
     width: 35px;
     border-radius: 0px; }
+  #homepage #articles .articlehome:hover h2, #homepage #articles .articlehome:hover p {
+    text-decoration: underline;
+    transition: 100ms;
+    cursor: pointer; }
+  #homepage #articles .articlehome h3:hover {
+    text-decoration: underline;
+    transition: 100ms;
+    cursor: pointer; }
   #homepage #articles .border-right {
     border-right: 1px solid rgba(0, 0, 0, 0.1); }
   #homepage #articles .border-bottom {
