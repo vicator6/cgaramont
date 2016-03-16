@@ -59,6 +59,11 @@ h1, h2, h3, h4, p{
 }
 
 #homepage{
+
+
+
+
+
   #homeslider{
     .container-fluid{
       padding-right: 0px;
@@ -70,10 +75,55 @@ h1, h2, h3, h4, p{
       border-radius: 0px;
     }
   }
+
   .borderbotvert{
     border-bottom: solid 8px $vertfluo;
+    height: 244px;
     .carreanim{
       padding:0px;
+
+    }
+
+    .flip-container {
+      perspective: 1000px;
+      background-color: #222;
+    }
+
+    /* flip the pane when hovered */
+    .flip-container:hover .flipper, .flip-container.hover .flipper {
+      transform: rotateY(180deg);
+    }
+
+    .flip-container, .front, .back {
+      width: 100%;
+      height: auto;
+      max-height: 100%;
+    }
+
+    /* flip speed goes here */
+    .flipper {
+      transition: 0.4s;
+      transform-style: preserve-3d;
+      position: relative;
+    }
+
+    /* hide back of pane during swap */
+    .front, .back {
+      backface-visibility: hidden;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    /* front pane, placed above back */
+    .front {
+      z-index: 2;
+      /* for firefox 31 */
+      transform: rotateY(0deg);
+    }
+    /* back, initially hidden pane */
+    .back {
+      transform: rotateY(180deg);
     }
   }
 
