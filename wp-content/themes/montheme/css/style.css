@@ -10,6 +10,9 @@
 body {
   font-family: "avenirlight"; }
 
+body > #homepage {
+  padding-top: 80px; }
+
 /*COULEURS*/
 /*COULEURS end*/
 h1, h2, h3, h4, p {
@@ -248,10 +251,14 @@ h1, h2, h3, h4, p {
 @media (min-width: 768px) {
   .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
     margin-right: 0;
-    margin-left: 0; } }
-.hm_nav-modified {
-  margin-left: -300px !important; }
+    margin-left: 0; }
 
+  .hm_nav-modified {
+    margin-left: -500px !important; }
+
+  .nav-brand-modified {
+    padding-top: 0 !important;
+    margin-left: 200px !important; } }
 .hm_navbar-collapse {
   padding: 12px 10px 12px 10px !important; }
 

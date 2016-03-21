@@ -19,7 +19,14 @@ $heavy : "avenirheavy";
 
 body{
   font-family:$light;
+
 }
+
+body > #homepage{
+  padding-top:80px;
+}
+
+
 
 /*COULEURS*/
 $bg : #F2F2F2;
@@ -336,6 +343,7 @@ h1, h2, h3, h4, p{
   margin-bottom: 0 !important;
   box-shadow: 0 2px 18px 0 rgba(0,0,0,0.75);
   z-index: 30;
+
 }
 
 .hm_container-fluid-modified {
@@ -347,7 +355,7 @@ h1, h2, h3, h4, p{
 }
 
 .nav-brand-modified {
-  padding-top:0 !important;
+  padding-top: 0 !important;
 }
 
 .navbar-toggle-modified {
@@ -372,11 +380,15 @@ h1, h2, h3, h4, p{
   margin-right: 0;
   margin-left: 0;
 }
+  .hm_nav-modified {
+    margin-left: -500px !important;
+  }
+  .nav-brand-modified {
+    padding-top: 0 !important;
+    margin-left: 200px !important;
+  }
 }
 
-.hm_nav-modified {
-  margin-left: -300px !important;
-}
 
 .hm_navbar-collapse {
   padding: 12px 10px 12px 10px !important;

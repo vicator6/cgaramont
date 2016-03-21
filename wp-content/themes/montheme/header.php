@@ -29,7 +29,7 @@
 
 <!-- Header -->
 <header id="top" class="header">
-    <nav class="navbar navbar-default hm_navbar-default-modified">
+    <nav class="navbar navbar-default hm_navbar-default-modified navbar-fixed-top">
         <div class="container-fluid hm_container-fluid-modified">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="nav-header_modified navbar-header">
