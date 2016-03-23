@@ -343,6 +343,13 @@ footer .fa {
 #enbrief .mamadou {
   margin-top: 5%; }
 
+#top .ac_float_social {
+  float: right; }
+#top .ac_icons_position {
+  margin: 14px; }
+#top li {
+  margin: 6px 0px; }
+
 /*ADRIENC end*/
 /*ADRIENT*/
 /*ADRIENT end*/

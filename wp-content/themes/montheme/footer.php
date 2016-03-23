@@ -56,6 +56,24 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="<?php bloginfo( 'template_directory' ); ?>/js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $(".dropdown").hover(
+            function() {
+                $('.dropdown-menu', this).not('.in .dropdown-menu').stop( true, true ).slideDown("fast");
+                $(this).toggleClass('open');
+            },
+            function() {
+                $('.dropdown-menu', this).not('.in .dropdown-menu').stop( true, true ).slideUp("fast");
+                $(this).toggleClass('open');
+            }
+
+        );
+
+    });
+</script>
+
 </body>
 <?php wp_footer(); ?>
 
@@ -72,6 +90,7 @@
 <!-- Scrolling Nav JavaScript -->
 <script src="<?php bloginfo( 'template_directory' ); ?>/js/jquery.easing.min.js"></script>
 <script src="<?php bloginfo( 'template_directory' ); ?>/js/scrolling-nav.js"></script>
+
 </html>
 
 
