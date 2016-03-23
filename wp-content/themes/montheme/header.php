@@ -31,6 +31,7 @@
 <body>
 
 <!-- Header -->
+<div class="ecart"></div>
 <header id="top" class="header">
     <nav class="navbar navbar-default hm_navbar-default-modified navbar-fixed-top">
         <div class="container-fluid hm_container-fluid-modified">
@@ -83,9 +84,31 @@
                             Formations <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="#">Bac Pro AMA CV Pluri Média</a></li>
+
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingTwo">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" role="button" data-toggle="collapse"
+                                               data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+                                               aria-controls="collapseTwo">
+                                                BTS industrie graphique
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                                         aria-labelledby="headingTwo">
+                                        <div class="panel-body">
+                                            <p><a href=""> BTS PI</a></p>
+                                            <p><a href=""> BTS PG</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <li><a href="#">BTS Design Graphique</a></li>
 
-                            <li><a href="#">BTS FOENFNRDI</a>
+
 
                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                     <div class="panel panel-default">
@@ -101,24 +124,13 @@
                                         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
                                              aria-labelledby="headingTwo">
                                             <div class="panel-body">
-                                                <p><a href=""> ufbzaiud</a></p>
-                                                <p><a href=""> zegerge</a></p>
-                                                <p><a href="">zegzgzgz </a></p>
+                                                <p><a href=""> Bac Pro PI</a></p>
+                                                <p><a href=""> Bac Pro PG</a></p>
+                                                <p><a href="">Bac Pro x </a></p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
-                            </li>
-
-                            <li class="dropdown-submenu">
-                                <a href="#"> BTS Industries Graphiques <span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#" tabindex="-1">BTS PG</a></li>
-                                    <li><a href="#" tabindex="-1">BTS PI</a></li>
-                                </ul>
-                            </li>
-                            <li class="divider"></li>
                             <li><a href="#">GRETA</a></li>
                             <li><a href="#">Démarches et Inscriptions</a></li>
                         </ul>

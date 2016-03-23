@@ -10,8 +10,8 @@
 body {
   font-family: "avenirlight"; }
 
-body > #homepage {
-  padding-top: 3.5%; }
+.ecart {
+  height: 80px; }
 
 /*COULEURS*/
 /*COULEURS end*/
@@ -31,9 +31,6 @@ h1, h2, h3, h4, p {
 
 .sept4 {
   margin-top: 40px; }
-
-.sept5 {
-  margin-top: 50px; }
 
 .sept10 {
   margin-top: 100px; }
@@ -378,6 +375,9 @@ footer .fa {
   margin: 14px; }
 #top li {
   margin: 6px 0px; }
+
+.ac_contact_text {
+  color: #FFFFFF; }
 
 /*ADRIENC end*/
 /*ADRIENT*/

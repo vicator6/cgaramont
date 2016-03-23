@@ -16,66 +16,77 @@ Template Name: Contact
         </div>
 
 
-        <div class="container">
 
-            <div class="row ac_margin_sep">
+            <div class="container">
 
-                <div class="row">
-                    <div class="col-md-9">
-                        <h3 class="ac_contact_title text-center">Contact</h3>
-                    </div>
-                </div>
-
-                <div class="col-md-9">
+                <div class="row ac_margin_sep">
 
                     <div class="row">
-
-                        <div class="col-md-4">
-                            <input id="fname" name="name" type="text" placeholder="Nom" class="form-control">
-                        </div>
-                        <div class="col-md-4">
-                            <input id="email" name="email" type="text" placeholder="Adresse Mail" class="form-control">
-                        </div>
-                        <div class="col-md-4">
-                            <input id="phone" name="phone" type="text" placeholder="Telephone" class="form-control">
-                        </div>
-
-                    </div>
-
-                    <div class="row sept2">
-                        <div class="col-md-12">
-                            <input id="subject" name="subject" type="text" placeholder="Sujet" class="form-control">
+                        <div class="col-md-9">
+                            <h1 class="ac_contact_title text-center">Contact</h1>
                         </div>
                     </div>
 
-                    <div class="row sept2">
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <textarea class="form-control" rows="5" placeholder="Votre message" id="comment"></textarea>
+                    <div class="col-md-9">
+
+                        <div class="row">
+
+                            <div class="col-md-4">
+                                <input id="fname" name="name" type="text" placeholder="Nom" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <input id="email" name="email" type="text" placeholder="Adresse Mail"
+                                       class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <input id="phone" name="phone" type="text" placeholder="Telephone" class="form-control">
+                            </div>
+
+                        </div>
+
+                        <div class="row sept2">
+                            <div class="col-md-12">
+                                <input id="subject" name="subject" type="text" placeholder="Sujet" class="form-control">
                             </div>
                         </div>
-                    </div>
 
-                    <div class="row">
-
-                        <div class="col-md-4">
-                            <button class="btn btn-primary" type="submit" id="btn-submit" name="btn-submit" value="submit">Envoyer le message</button>
+                        <div class="row sept2">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="5" placeholder="Votre message"
+                                              id="comment"></textarea>
+                                </div>
+                            </div>
                         </div>
 
+                        <div class="row">
+
+                            <div class="col-md-4">
+                                <button class="btn btn-primary" type="submit" id="btn-submit" name="btn-submit"
+                                        value="submit">Envoyer le message
+                                </button>
+                            </div>
+
+                        </div>
                     </div>
+
+                    <div class="container-fluid ac_nopadding">
+                        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div id="txt_qsn">
+
+                            <?php the_content(); ?>
+
+                                </div>
+                            </div>
+                        </div>
+                        <?php endwhile; endif; ?>
+                    </div>
+
                 </div>
-
-                <div class="container-fluid ac_nopadding">
-                    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
-
-                        <?php the_content(); ?>
-
-
-                    <?php endwhile; endif; ?>
-                </div>
-
             </div>
+
         </div>
 
     </section>

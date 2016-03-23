@@ -21,10 +21,10 @@ body{
   font-family:$light;
 
 }
-
-body > #homepage{
-  padding-top: 3.5%;
+.ecart{
+  height: 80px;
 }
+
 
 
 
@@ -67,9 +67,7 @@ h1, h2, h3, h4, p{
 .sept4 {
   @include sept(40px);
 }
-.sept5 {
-  @include sept(50px);
-}
+
 .sept10 {
   @include sept(100px);
 }
@@ -568,6 +566,12 @@ footer .fa{
     margin: 6px 0px;
   }
 
+
+
+}
+
+.ac_contact_text {
+  color : #FFFFFF;
 }
 
 
