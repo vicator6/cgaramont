@@ -1,5 +1,4 @@
-$vertfluo :#62f9af;
-$bg : #F2F2F2;
+
 /*GENERALE*/
 
 /*FONT*/
@@ -9,7 +8,6 @@ $bg : #F2F2F2;
   font-family: "avenirlight";
   src: url('../fonts/avenirlight.otf');
 }
-
 @font-face {
   font-family: "avenirheavy";
   src: url('../fonts/avenirheavy.otf');
@@ -19,9 +17,22 @@ $light : "avenirlight";
 $heavy : "avenirheavy";
 /*FONT*/
 
+body{
+  font-family:$light;
+
+}
+
+body > #homepage{
+  padding-top:80px;
+}
+
+
+
 /*COULEURS*/
-$vertfluo :#62f9af;
+$bg : #F2F2F2;
+$vertfluo :#49bf9d;
 $vertfluo9 : rgba(98, 249, 175, 0.9);
+$grey : rgba(56, 55, 55, 0.5);
 /*COULEURS end*/
 
 
@@ -64,29 +75,66 @@ h1, h2, h3, h4, p{
 }
 
 #homepage{
-
-
-
-
-
   #homeslider{
     .container-fluid{
-      padding-right: 0px;
-      padding-left: 0px;
+      padding-right: 0;
+      padding-left: 0;
     }
     .activepoint{
       height: 8px;
       width: 35px;
-      border-radius: 0px;
+      border-radius: 0;
     }
+  }
+  #articles{
+    .grey{
+      color: $grey;
+    }
+    .articlehome{
+      &:hover{
+        h2, p{
+          text-decoration: underline;
+          transition: 100ms;
+          cursor: pointer;
+        }
+      }
+      h3{
+        &:hover{
+          text-decoration: underline;
+          transition: 100ms;
+          cursor: pointer;
+        }
+      }
+    }
+    .toparticle{
+      img{
+        max-width:90% ;
+        height: auto;
+      }
+    }
+    .border-right{
+      border-right: 1px solid rgba(0, 0, 0, 0.1);
+
+    }
+    .border-bottom{
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      img{
+
+      }
+    }
+
   }
 
   .borderbotvert{
     border-bottom: solid 8px $vertfluo;
     height: 363px;
     background-color: $vertfluo;
+    img{
+      max-height: 355px;
+      width: 100%;
+    }
     .carreanim{
-      padding:0px;
+      padding:0;
 
     }
 
@@ -102,8 +150,9 @@ h1, h2, h3, h4, p{
 
     .flip-container, .front, .back {
       width: 100%;
-      height: auto;
+      height: 356px;
       max-height: 100%;
+      background-color: rgba(0, 0, 0, 0.51);
     }
 
     /* flip speed goes here */
@@ -186,7 +235,7 @@ h1, h2, h3, h4, p{
     background-color: $vertfluo;
   }
   .slide1 {
-    background-image: url("../img/slider1.jpg");
+    background-image: url("../img/slider1.png");
     width: 100%;
     height: auto;
     background-size: cover;
@@ -292,8 +341,9 @@ h1, h2, h3, h4, p{
   background-image: linear-gradient(to bottom,#f1f1f1 0,#f8f8f8 100%) !important;
   min-height: 80px !important;
   margin-bottom: 0 !important;
-  box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.75);
+  box-shadow: 0 2px 18px 0 rgba(0,0,0,0.75);
   z-index: 30;
+
 }
 
 .hm_container-fluid-modified {
@@ -305,7 +355,7 @@ h1, h2, h3, h4, p{
 }
 
 .nav-brand-modified {
-  padding-top:0 !important;
+  padding-top: 0 !important;
 }
 
 .navbar-toggle-modified {
@@ -330,11 +380,15 @@ h1, h2, h3, h4, p{
   margin-right: 0;
   margin-left: 0;
 }
+  .hm_nav-modified {
+    margin-left: -500px !important;
+  }
+  .nav-brand-modified {
+    padding-top: 0 !important;
+    margin-left: 200px !important;
+  }
 }
 
-.hm_nav-modified {
-  margin-left: -300px !important;
-}
 
 .hm_navbar-collapse {
   padding: 12px 10px 12px 10px !important;
@@ -428,12 +482,8 @@ ul li a {
 
 
 
-/*    ===================================================================================      Adrien Cadot        ==============================================================     */
-
-/*    ===================================================================================      Adrien Trublard        ==============================================================     */
-
 footer{
-  font-family: "Avenir Heavy";
+  font-family: $heavy;
   text-decoration: none;
   color: white;
 }

@@ -7,6 +7,12 @@
   font-family: "avenirheavy";
   src: url("../fonts/avenirheavy.otf"); }
 /*FONT*/
+body {
+  font-family: "avenirlight"; }
+
+body > #homepage {
+  padding-top: 80px; }
+
 /*COULEURS*/
 /*COULEURS end*/
 h1, h2, h3, h4, p {
@@ -35,23 +41,43 @@ h1, h2, h3, h4, p {
 #homepage {
   /* Animation delays */ }
   #homepage #homeslider .container-fluid {
-    padding-right: 0px;
-    padding-left: 0px; }
+    padding-right: 0;
+    padding-left: 0; }
   #homepage #homeslider .activepoint {
     height: 8px;
     width: 35px;
-    border-radius: 0px; }
+    border-radius: 0; }
+  #homepage #articles .grey {
+    color: rgba(56, 55, 55, 0.5); }
+  #homepage #articles .articlehome:hover h2, #homepage #articles .articlehome:hover p {
+    text-decoration: underline;
+    transition: 100ms;
+    cursor: pointer; }
+  #homepage #articles .articlehome h3:hover {
+    text-decoration: underline;
+    transition: 100ms;
+    cursor: pointer; }
+  #homepage #articles .toparticle img {
+    max-width: 90%;
+    height: auto; }
+  #homepage #articles .border-right {
+    border-right: 1px solid rgba(0, 0, 0, 0.1); }
+  #homepage #articles .border-bottom {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
   #homepage .borderbotvert {
-    border-bottom: solid 8px #62f9af;
+    border-bottom: solid 8px #49bf9d;
     height: 363px;
-    background-color: #62f9af;
+    background-color: #49bf9d;
     /* flip the pane when hovered */
     /* flip speed goes here */
     /* hide back of pane during swap */
     /* front pane, placed above back */
     /* back, initially hidden pane */ }
+    #homepage .borderbotvert img {
+      max-height: 355px;
+      width: 100%; }
     #homepage .borderbotvert .carreanim {
-      padding: 0px; }
+      padding: 0; }
     #homepage .borderbotvert .flip-container {
       perspective: 1000px;
       background-color: #222; }
@@ -59,8 +85,9 @@ h1, h2, h3, h4, p {
       transform: rotateY(180deg); }
     #homepage .borderbotvert .flip-container, #homepage .borderbotvert .front, #homepage .borderbotvert .back {
       width: 100%;
-      height: auto;
-      max-height: 100%; }
+      height: 356px;
+      max-height: 100%;
+      background-color: rgba(0, 0, 0, 0.51); }
     #homepage .borderbotvert .flipper {
       transition: 0.4s;
       transform-style: preserve-3d;
@@ -97,7 +124,7 @@ h1, h2, h3, h4, p {
     height: 200px;
     padding: 0;
     overflow: hidden;
-    border-bottom: solid 6px #62f9af; }
+    border-bottom: solid 6px #49bf9d; }
     #homepage .vcborder:hover .hoververt {
       top: 40%;
       transition: 300ms; }
@@ -109,13 +136,13 @@ h1, h2, h3, h4, p {
     float: left; }
   #homepage .carousel-inner {
     height: 100%;
-    border-bottom: solid 8px #62f9af; }
+    border-bottom: solid 8px #49bf9d; }
   #homepage div#carousel-example-generic {
     height: 500px; }
   #homepage .skyblue {
-    background-color: #62f9af; }
+    background-color: #49bf9d; }
   #homepage .slide1 {
-    background-image: url("../img/slider1.jpg");
+    background-image: url("../img/slider1.png");
     width: 100%;
     height: auto;
     background-size: cover; }
@@ -170,7 +197,7 @@ h1, h2, h3, h4, p {
     color: black;
     font-style: inherit; }
     #homepage .carousel-caption button:hover {
-      background-color: #62f9af;
+      background-color: #49bf9d;
       color: #000;
       border-color: #fff;
       transition: 300ms; }
@@ -182,7 +209,7 @@ h1, h2, h3, h4, p {
     font-size: 30px;
     font-weight: bold; }
   #homepage .surlignevert {
-    background-color: #62f9af;
+    background-color: #49bf9d;
     padding: 5px 5px 5px 5px;
     line-height: 1.5; }
 
@@ -195,7 +222,7 @@ h1, h2, h3, h4, p {
   background-image: linear-gradient(to bottom, #f1f1f1 0, #f8f8f8 100%) !important;
   min-height: 80px !important;
   margin-bottom: 0 !important;
-  box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.75);
   z-index: 30; }
 
 .hm_container-fluid-modified {
@@ -224,10 +251,14 @@ h1, h2, h3, h4, p {
 @media (min-width: 768px) {
   .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
     margin-right: 0;
-    margin-left: 0; } }
-.hm_nav-modified {
-  margin-left: -300px !important; }
+    margin-left: 0; }
 
+  .hm_nav-modified {
+    margin-left: -500px !important; }
+
+  .nav-brand-modified {
+    padding-top: 0 !important;
+    margin-left: 200px !important; } }
 .hm_navbar-collapse {
   padding: 12px 10px 12px 10px !important; }
 
@@ -295,10 +326,8 @@ ul li a {
 .fil-ariane {
   margin-top: 40px; }
 
-/*    ===================================================================================      Adrien Cadot        ==============================================================     */
-/*    ===================================================================================      Adrien Trublard        ==============================================================     */
 footer {
-  font-family: "Avenir Heavy";
+  font-family: "avenirheavy";
   text-decoration: none;
   color: white; }
 

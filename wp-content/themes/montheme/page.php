@@ -52,13 +52,31 @@
                 </div>
             </div>
     <div class="container">
-            <div class="row">
-
-                <div class="col-md-12">
-                    <?php if ( has_post_thumbnail() ) : ?>
-                        <p class="thumbnail-img"><?php the_post_thumbnail('full', array('class' => 'img-responsive')); ?></p>
+    <div class="row">
+    <div class="col-md-12">
+    <?php if ( has_post_thumbnail() ) : ?>
+     <p class="thumbnail-img"><?php the_post_thumbnail('full', array('class' => 'img-responsive')); ?></p>
                     <?php endif; ?>
+</div>
+</div>
+
+            <div class="row">
+                <div class="col-md-8">
                     <?php the_content(); ?>
+                </div>
+
+                <div class="col-md-offset-1 col-md-3">
+                    <h3>Derniers articles</h3>
+<ul style="border-left:solid 1px #EEEEEE">
+<?php
+    $recentPosts = new WP_Query();
+    $recentPosts->query('showposts=5');
+?>
+<?php while ($recentPosts->have_posts()) : $recentPosts->the_post(); ?>
+    <li><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></li>
+    <hr>
+<?php endwhile; ?>
+</ul>
                 </div>
 
             </div>

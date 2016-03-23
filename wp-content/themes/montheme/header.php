@@ -32,7 +32,7 @@
 
 <!-- Header -->
 <header id="top" class="header">
-    <nav class="navbar navbar-default hm_navbar-default-modified">
+    <nav class="navbar navbar-default hm_navbar-default-modified navbar-fixed-top">
         <div class="container-fluid hm_container-fluid-modified">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="nav-header_modified navbar-header">
@@ -142,6 +142,12 @@
                         </ul>
                     </li>
                     <li><a href="<?php echo get_page_link(128); ?>">Marchés Publics</a></li>
+                    <li><a href="<?php echo home_url();?>">Accueil <span class="sr-only">(current)</span></a></li>
+                    <li><a href="<?php echo get_page_link(34); ?>">Be European</a></li>
+                    <li><a href="<?php echo get_page_link(11); ?>">Lycée</a></li>
+                    <li><a href="<?php echo get_page_link(48); ?>">Formations</a></li>
+                    <li><a href="<?php echo get_page_link(120); ?>">Entreprise</a></li>
+                    <li><a href="<?php echo get_page_link(135); ?>">Partenaires</a></li>
                     <li><a href="<?php echo get_page_link(126); ?>">Contact</a></li>
 
 
