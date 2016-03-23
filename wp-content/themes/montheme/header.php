@@ -38,10 +38,7 @@
             <div class="nav-header_modified navbar-header">
                 <button type="button" class="navbar-toggle-modified navbar-toggle collapsed" data-toggle="collapse"
                         data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+
                 </button>
                 <a class="navbar-brand nav-brand-modified" href="#"><img
                         src="<?php bloginfo('template_directory'); ?>/img/Logo_nav_modified.png"
@@ -88,28 +85,31 @@
                             <li><a href="#">Bac Pro AMA CV Pluri Média</a></li>
                             <li><a href="#">BTS Design Graphique</a></li>
 
-                                <li><a href="#">BTS FOENFNRDI</a>
+                            <li><a href="#">BTS FOENFNRDI</a>
 
-                                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                                        <div class="panel panel-default">
-                                            <div class="panel-heading" role="tab" id="headingTwo">
-                                                <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                        Bac Pro industrie graphique
-                                                    </a>
-                                                </h4>
-                                            </div>
-                                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                                <div class="panel-body">
-                                                    <p><a href=""> ufbzaiud</a></p>
-                                                    <p><a href=""> zegerge</a></p>
-                                                    <p><a href="">zegzgzgz </a></p>
-                                                </div>
+                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingTwo">
+                                            <h4 class="panel-title">
+                                                <a class="collapsed" role="button" data-toggle="collapse"
+                                                   data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+                                                   aria-controls="collapseTwo">
+                                                    Bac Pro industrie graphique
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                                             aria-labelledby="headingTwo">
+                                            <div class="panel-body">
+                                                <p><a href=""> ufbzaiud</a></p>
+                                                <p><a href=""> zegerge</a></p>
+                                                <p><a href="">zegzgzgz </a></p>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
 
-                                </li>
+                            </li>
 
                             <li class="dropdown-submenu">
                                 <a href="#"> BTS Industries Graphiques <span class="caret"></span></a>
@@ -141,16 +141,7 @@
                             <li><a href="#">Typographie et mise en page</a></li>
                         </ul>
                     </li>
-                    <li><a href="<?php echo get_page_link(128); ?>">Marchés Publics</a></li>
-                    <li><a href="<?php echo home_url();?>">Accueil <span class="sr-only">(current)</span></a></li>
-                    <li><a href="<?php echo get_page_link(34); ?>">Be European</a></li>
-                    <li><a href="<?php echo get_page_link(11); ?>">Lycée</a></li>
-                    <li><a href="<?php echo get_page_link(48); ?>">Formations</a></li>
-                    <li><a href="<?php echo get_page_link(120); ?>">Entreprise</a></li>
-                    <li><a href="<?php echo get_page_link(135); ?>">Partenaires</a></li>
-                    <li><a href="<?php echo get_page_link(126); ?>">Contact</a></li>
-
-
+                    <li><a href="">Marchés Publics</a></li>
                 </ul>
 
                 <div class="ac_float_social">
